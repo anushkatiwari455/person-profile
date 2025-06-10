@@ -73,3 +73,17 @@ How would you setup your new solution and why?
 - Scaffold your solution
   - See how much you can scaffold out to hand to another team member to continue with
   - Bonus points if you have something working
+
+
+
+  INITIAL TODO List:
+- 1. Development Environment Setup
+  Development environment: .Net 8 SDK
+  Application Type:  Console App
+  Unit Testing:  xUnit + FluentAssertions +Moq
+
+  2. Clean architecture is being followed
+    CardGame.Domain/  : Core entities and logic (Card, Deck)
+    CardGame.Application/ : this contains IShuffler
+    CardGame.Infrastructure/ : External services and implementations  (RandomShuffler)
+
